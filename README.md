@@ -23,15 +23,15 @@ The dataset used in this project consists of IoT sensor data from a chiller. It 
 - Check for stationarity in the data.
 - Analyze ACF and PACF plots.
 - Build the following models:
--- Moving average (MA).
--- First order autoregressive (AR).
--- Second/general order autoregressive (AR).
--- Third order autoregressive (AR).
--- Fourth order autoregressive (AR).
+  - Moving average (MA).
+  - First order autoregressive (AR).
+  - Second/general order autoregressive (AR).
+  - Third order autoregressive (AR).
+  - Fourth order autoregressive (AR).
 - Evaluate the models' performance.
 
 ## Project Structure
-
+```
 |-- InputFiles
     -- sensor_data.csv
 |-- SourceFolder
@@ -45,4 +45,4 @@ The dataset used in this project consists of IoT sensor data from a chiller. It 
         -- Stationarity.py
         -- Whitenoise.py
         -- preprocessing.py
-    |-- Engine.py 
+    |-- Engine.py

@@ -31,6 +31,7 @@ The dataset used in this project consists of IoT sensor data from a chiller. It 
 - Evaluate the models' performance.
 
 ## Project Structure
+
 |-- InputFiles
     -- sensor_data.csv
 |-- SourceFolder
@@ -43,5 +44,5 @@ The dataset used in this project consists of IoT sensor data from a chiller. It 
         -- RandomWalk.py
         -- Stationarity.py
         -- Whitenoise.py
-        -- preprocessingpy
-    |-- Engine.py
+        -- preprocessing.py
+    |-- Engine.py 

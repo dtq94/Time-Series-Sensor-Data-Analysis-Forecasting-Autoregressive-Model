@@ -20,7 +20,6 @@ def main():
     raw_csv_data = pd.read_csv('../input/'+ 'Data-Chillers.csv') 
 
     df = raw_csv_data.copy()     # create a copy
-    checkpoint('c2bf09')
 
 
     # Preprocess
